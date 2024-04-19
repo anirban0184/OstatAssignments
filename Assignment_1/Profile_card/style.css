@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+}
+#profile {
+    width: 100vw;
+    height: 100vh;
+    background-color: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-container {
+    background-color: #fff;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.profile-image {
+    margin-top: -70px
+}
+.top-side {
+    height: 250px;
+    background-image: linear-gradient(#D42333 5%, #000 );
+    border-radius: 0px 0px 50px 50px;
+}
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    gap: 10px
+}
+.name {
+    font-size: 22px;
+}
+.occupation {
+    font-size: 12px;
+    margin-top: -10px;
+}
+.description {
+    text-align: center;;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.contact a {
+    color: #000;
+    text-decoration: none;
+}
+.contact a i {
+    color: #D42333;
+}
